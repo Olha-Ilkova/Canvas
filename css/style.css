@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+.canvas-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  background: #08c;
+}
+
+#marioStop, #marioJump, #marioGoRight {
+  display: none;
+}
